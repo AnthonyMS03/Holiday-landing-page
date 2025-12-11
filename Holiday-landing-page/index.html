@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holiday Campaign</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Celebrate the Holidays in Style</h1>
+      <p>Exclusive festive collection available now</p>
+      <button onclick="scrollToSection('products')">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Countdown -->
+  <section class="countdown">
+    <h2>Holiday Sale Ends In:</h2>
+    <div id="timer">00d 00h 00m 00s</div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="products" class="products-section">
+    <h2>Featured Collection</h2>
+    <div class="product-grid" id="product-grid">
+      <!-- Products loaded via JS -->
+    </div>
+  </section>
+
+  <script src="js/content.js"></script>
+</body>
+</html>
